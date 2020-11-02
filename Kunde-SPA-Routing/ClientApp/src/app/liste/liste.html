@@ -1,0 +1,33 @@
+﻿<div class="container">
+    <h2>   Kunde: Single Page Application (SPA) </h2>
+    <div>
+        <div class="col-md-12">
+            <div *ngIf="laster">Laster kunder.....</div>
+            <table class="table table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th>Fornavn</th>
+                        <th>Etternavn</th>
+                        <th>Adresse</th>
+                        <th>Postnr</th>
+                        <th>Poststed</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let kunde of alleKunder">
+                    <tr>
+                        <td>{{kunde.fornavn}}</td>
+                        <td>{{kunde.etternavn}}</td>
+                        <td>{{kunde.adresse}}</td>
+                        <td>{{kunde.postnr}}</td>
+                        <td>{{kunde.poststed}}</td>
+                        <td><button class="btn btn-danger" (click)="sletteKunde(kunde.id)">Slett</button></td>
+                        <td><button class="btn btn-success" [routerLink]="['/endre',kunde.id]">Endre</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class='btn btn-primary' routerLink="/lagre">Lagre kunde</button>
+        </div>
+    </div>
+</div>

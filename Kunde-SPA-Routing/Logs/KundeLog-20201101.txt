@@ -1,0 +1,16 @@
+2020-11-01T19:33:26.4510071+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-01T19:33:26.7806441+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-01T19:33:26.7829529+01:00  [INF] Content root path: "C:\Users\lcz\Desktop\school\WebApplication\Angular\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2020-11-01T19:35:28.9845342+01:00 80000006-0001-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-01T19:39:37.5585318+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-01T19:39:37.5773776+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-01T19:39:37.5791036+01:00  [INF] Content root path: "C:\Users\lcz\Desktop\school\WebApplication\Angular\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2020-11-01T19:41:08.0282686+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-01T19:41:08.1712779+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-01T19:41:08.1740446+01:00  [INF] Content root path: "C:\Users\lcz\Desktop\school\WebApplication\Angular\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)

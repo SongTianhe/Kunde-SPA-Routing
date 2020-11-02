@@ -1,0 +1,46 @@
+﻿<div class="container">
+    <div class="col-md-4" >
+        <form [formGroup]="skjema" (ngSubmit)="vedSubmit()">
+            <div class="form-group">
+                <label>Fornavn</label>
+                <input class="form-control" formControlName="fornavn" />
+                <p class="alert alert-warning" [hidden]="skjema.controls.fornavn.valid || (skjema.controls.fornavn.pristine && !submitted)">
+                    Fornavn er obligatorisk.
+                </p>
+            </div>
+            <div class="form-group">
+                <label>Etternavn</label>
+                <input class="form-control" formControlName="etternavn" />
+                <p class="alert alert-warning" [hidden]="skjema.controls.etternavn.valid || (skjema.controls.etternavn.pristine && !submitted)">
+                    Etternavn er obligatorisk.
+                </p>
+            </div>
+            <div class="form-group">
+                <label>Adresse</label>
+                <input class="form-control" formControlName="adresse" />
+                <p class="alert alert-warning" [hidden]="skjema.controls.adresse.valid || (skjema.controls.adresse.pristine && !submitted)">
+                    Adresse er obligatorisk.
+                </p>
+            </div>
+            <div class="form-group">
+                <label>Postnr</label>
+                <input class="form-control" formControlName="postnr" />
+                <p class="alert alert-warning" [hidden]="skjema.controls.postnr.valid || (skjema.controls.postnr.pristine && !submitted)">
+                    Postnr er obligatorisk (4 siffer)
+                </p>
+            </div>
+            <div class="form-group">
+                <label>Poststed</label>
+                <input class="form-control" formControlName="poststed" />
+                <p class="alert alert-warning" [hidden]="skjema.controls.poststed.valid || (skjema.controls.poststed.pristine && !submitted)">
+                    Poststed er obligatorisk.
+                </p>
+            </div>
+            <div class="form-group">
+                <button type="submit" [disabled]="!skjema.valid" class="btn btn-primary">Registrer</button>
+                <button class="btn btn-default" routerLink="/liste">Tilbake</button>
+            </div>
+        </form>
+    </div>
+</div>
+

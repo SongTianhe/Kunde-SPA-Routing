@@ -1,0 +1,330 @@
+2020-07-18T13:42:54.6163350+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T13:42:54.6214160+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T13:42:54.6223660+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T13:42:54.6225130+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T13:42:54.6225980+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T14:40:11.3197050+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T14:40:11.3263160+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T14:40:11.3268920+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T14:40:11.3269850+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T14:40:11.3270680+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T14:40:24.6348170+02:00  [ERR] ERROR in app/lagre/lagre.ts:65:5 - error TS1005: '}' expected.
+
+65   };
+       
+app/liste/liste.ts:29:5 - error TS1005: '}' expected.
+
+29   };
+       
+
+ (142b71e1)
+2020-07-18T14:41:37.1407470+02:00  [ERR] ERROR in app/lagre/lagre.ts:65:5 - error TS1005: '}' expected.
+
+65   };
+       
+
+ (f48a886c)
+2020-07-18T14:41:41.7115810+02:00  [ERR]     ERROR in src/app/endre/endre.ts(4,23): error TS2307: Cannot find module './Kunde'.
+    src/app/endre/endre.ts(66,16): error TS2339: Property 'hentAlleKunder' does not exist on type 'Endre'.
+    src/app/endre/endre.ts(67,16): error TS2339: Property 'visSkjema' does not exist on type 'Endre'.
+    src/app/endre/endre.ts(68,16): error TS2339: Property 'visKundeListe' does not exist on type 'Endre'.
+    src/app/lagre/lagre.ts(4,23): error TS2307: Cannot find module './Kunde'.
+    src/app/lagre/lagre.ts(50,14): error TS2339: Property 'hentAlleKunder' does not exist on type 'Lagre'.
+    src/app/lagre/lagre.ts(51,14): error TS2339: Property 'visSkjema' does not exist on type 'Lagre'.
+    src/app/lagre/lagre.ts(52,14): error TS2339: Property 'visKundeListe' does not exist on type 'Lagre'.
+    src/app/lagre/lagre.ts(61,14): error TS2339: Property 'hentAlleKunder' does not exist on type 'Lagre'.
+    src/app/liste/liste.ts(4,23): error TS2307: Cannot find module './Kunde'.
+    
+ (1325e279)
+2020-07-18T14:42:01.2187040+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T14:42:01.2278980+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T14:42:01.2282200+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T14:42:01.2282690+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T14:42:01.2283020+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T14:43:17.5048180+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T14:43:17.5231690+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T14:43:17.5313110+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T14:43:17.5354090+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T14:43:31.9299860+02:00  [ERR] ERROR in app/endre/endre.ts:4:23 - error TS2307: Cannot find module './Kunde'.
+
+4 import { Kunde } from "./Kunde";
+                        ~~~~~~~~~
+app/endre/endre.ts:66:16 - error TS2339: Property 'hentAlleKunder' does not exist on type 'Endre'.
+
+66           this.hentAlleKunder();
+                  ~~~~~~~~~~~~~~
+app/endre/endre.ts:67:16 - error TS2339: Property 'visSkjema' does not exist on type 'Endre'.
+
+67           this.visSkjema = false;
+                  ~~~~~~~~~
+app/endre/endre.ts:68:16 - error TS2339: Property 'visKundeListe' does not exist on type 'Endre'.
+
+68           this.visKundeListe = true;
+                  ~~~~~~~~~~~~~
+app/lagre/lagre.ts:4:23 - error TS2307: Cannot find module './Kunde'.
+
+4 import { Kunde } from "./Kunde";
+                        ~~~~~~~~~
+app/lagre/lagre.ts:50:14 - error TS2339: Property 'hentAlleKunder' does not exist on type 'Lagre'.
+
+50         this.hentAlleKunder();
+                ~~~~~~~~~~~~~~
+app/lagre/lagre.ts:51:14 - error TS2339: Property 'visSkjema' does not exist on type 'Lagre'.
+
+51         this.visSkjema = false;
+                ~~~~~~~~~
+app/lagre/lagre.ts:52:14 - error TS2339: Property 'visKundeListe' does not exist on type 'Lagre'.
+
+52         this.visKundeListe = true;
+                ~~~~~~~~~~~~~
+app/lagre/lagre.ts:61:14 - error TS2339: Property 'hentAlleKunder' does not exist on type 'Lagre'.
+
+61         this.hentAlleKunder();
+ (a917224d)
+2020-07-18T14:52:28.4457300+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T14:52:28.4616330+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T14:52:28.4694220+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T14:52:28.4734590+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T14:52:43.1663020+02:00  [ERR] ERROR in app/endre/endre.ts:4:23 - error TS2307: Cannot find module './Kunde'.
+
+4 import { Kunde } from "./Kunde";
+                        ~~~~~~~~~
+app/endre/endre.ts:66:16 - error TS2339: Property 'router' does not exist on type 'Endre'.
+
+66           this.router.navigate(['/liste']);
+                  ~~~~~~
+app/lagre/lagre.ts:4:23 - error TS2307: Cannot find module './Kunde'.
+
+4 import { Kunde } from "./Kunde";
+                        ~~~~~~~~~
+app/lagre/lagre.ts:50:14 - error TS2339: Property 'router' does not exist on type 'Lagre'.
+
+50         this.router.navigate(['/liste']);
+                ~~~~~~
+app/lagre/lagre.ts:59:14 - error TS2339: Property 'router' does not exist on type 'Lagre'.
+
+59         this.router.navigate(['/liste']);
+                ~~~~~~
+app/liste/liste.ts:4:23 - error TS2307: Cannot find module './Kunde'.
+
+4 import { Kunde } from "./Kunde";
+                        ~~~~~~~~~
+
+ (9bcdee6e)
+2020-07-18T14:54:52.7741750+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T14:54:52.8067630+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T14:54:52.8238460+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T14:54:52.8380900+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T14:58:56.6237910+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T14:58:56.6369760+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T14:58:56.6399810+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T14:58:56.6400490+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T14:58:56.6401110+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T15:09:30.9106950+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T15:09:30.9363280+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T15:09:30.9404940+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T15:09:30.9442470+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T16:27:04.0228840+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T16:27:04.0481680+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T16:27:04.0556750+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T16:27:04.0638610+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T16:27:30.4576250+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T16:27:30.4761960+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T16:27:30.4802880+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T16:27:30.4840700+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T16:27:45.0742980+02:00  [ERR] ERROR in app/endre/endre.ts:31:83 - error TS2304: Cannot find name 'Router'.
+
+31   constructor(private _http: HttpClient, private fb: FormBuilder, private router: Router) {
+                                                                                     ~~~~~~
+app/lagre/lagre.ts:31:83 - error TS2304: Cannot find name 'Router'.
+
+31   constructor(private _http: HttpClient, private fb: FormBuilder, private router: Router) {
+                                                                                     ~~~~~~
+
+ (43124a87)
+2020-07-18T16:30:49.2371840+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T16:30:49.2587050+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T16:30:49.2714680+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T16:30:49.2774220+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T16:31:07.9247720+02:00  [ERR] ERROR in ./src/app/endre/endre.ts
+Module not found: Error: Can't resolve './endre/endre.html' in '/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing/ClientApp/src/app/endre'
+ERROR in ./src/app/lagre/lagre.ts
+Module not found: Error: Can't resolve './lagre/lagre.html' in '/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing/ClientApp/src/app/lagre'
+ERROR in ./src/app/liste/liste.ts
+Module not found: Error: Can't resolve './liste/liste.html' in '/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing/ClientApp/src/app/liste'
+ (335aa726)
+2020-07-18T16:32:29.7991830+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T16:32:29.8133740+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T16:32:29.8197520+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T16:32:29.8256950+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T16:45:02.7499800+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T16:45:02.7640190+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T16:45:02.7703490+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T16:45:02.7740800+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T16:46:56.0333740+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T16:46:56.0559210+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T16:46:56.0609930+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T16:46:56.0864560+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T16:47:17.2064990+02:00  [ERR] ERROR in ./src/app/liste/liste.ts
+Module not found: Error: Can't resolve './liste1.html' in '/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing/ClientApp/src/app/liste'
+ (7e63c436)
+2020-07-18T16:47:45.3185680+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T16:47:45.3294820+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T16:47:45.3380640+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T16:47:45.3381250+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T16:47:45.3381660+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T16:48:01.3718480+02:00  [ERR] ERROR in app/liste/liste.ts:23:14 - error TS2551: Property 'alleKunder' does not exist on type 'Liste'. Did you mean 'alleKunder1'?
+
+23         this.alleKunder = kundene;
+                ~~~~~~~~~~
+
+  app/liste/liste.ts:10:3
+    10   alleKunder1: Array<Kunde>;
+         ~~~~~~~~~~~
+    'alleKunder1' is declared here.
+
+ (31f41028)
+2020-07-18T16:48:25.4641620+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T16:48:25.4705300+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T16:48:25.4714150+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T16:48:25.4714720+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T16:48:25.4715210+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T17:30:21.3513230+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T17:30:21.3625490+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T17:30:21.3629230+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T17:30:21.3629690+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T17:30:21.3630080+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T17:34:10.1344240+02:00  [ERR]     ERROR in src/app/liste/liste.ts(34,14): error TS2339: Property 'router' does not exist on type 'Liste'.
+    
+ (71d0516c)
+2020-07-18T17:38:32.1608820+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T17:38:32.1684060+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T17:38:32.1689050+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T17:38:32.1690370+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T17:38:32.1690950+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T17:38:47.2814060+02:00  [ERR] ERROR in app/lagre/lagre.ts:51:14 - error TS2551: Property '_router' does not exist on type 'Lagre'. Did you mean 'router'?
+
+51         this._router.navigate(['/liste']);
+                ~~~~~~~
+
+  app/lagre/lagre.ts:32:66
+    32   constructor(private http: HttpClient, private fb: FormBuilder, private router: Router) {
+                                                                        ~~~~~~~~~~~~~~~~~~~~~~
+    'router' is declared here.
+
+ (8cb1cb94)
+2020-07-18T17:39:27.4906970+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T17:39:27.5170000+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T17:39:27.5190910+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T17:39:27.5191460+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T17:39:27.5191980+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T17:42:44.0727890+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T17:42:44.0831360+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T17:42:44.0835090+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T17:42:44.0835950+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T17:42:44.0836380+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T17:52:33.4669820+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T17:52:33.4772730+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T17:52:33.4782190+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T17:52:33.4782780+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T17:52:33.4783490+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T17:54:53.7568310+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T17:54:53.7743130+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T17:54:53.7751490+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T17:54:53.7752090+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T17:54:53.7752660+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T18:07:11.0749180+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T18:07:11.0829210+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T18:07:11.0833090+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T18:07:11.0833570+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T18:07:11.0833960+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T18:07:19.3683780+02:00  [ERR] ERROR in app/endre/endre.ts:51:36 - error TS1005: ')' expected.
+
+51         error => console.log(error);
+                                      ~
+app/endre/endre.ts:52:7 - error TS1128: Declaration or statement expected.
+
+52       );
+         ~
+app/endre/endre.ts:69:36 - error TS1005: ')' expected.
+
+69         error => console.log(error);
+                                      ~
+app/endre/endre.ts:70:7 - error TS1128: Declaration or statement expected.
+
+70       );
+         ~
+app/lagre/lagre.ts:53:36 - error TS1005: ')' expected.
+
+53         error => console.log(error);
+                                      ~
+app/lagre/lagre.ts:54:7 - error TS1128: Declaration or statement expected.
+
+54       );
+         ~
+app/liste/liste.ts:27:36 - error TS1005: ')' expected.
+
+27         error => console.log(error);
+                                      ~
+app/liste/liste.ts:28:7 - error TS1128: Declaration or statement expected.
+
+28       );
+         ~
+app/liste/liste.ts:37:36 - error TS1005: ')' expected.
+
+37         error => console.log(error);
+                                      ~
+app/liste/liste.ts:38:7 - error TS1128: Declaration or statement expected.
+
+38       );
+         ~
+
+ (af62ca2e)
+2020-07-18T18:08:11.3888910+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T18:08:11.3973540+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T18:08:11.3980950+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T18:08:11.3985700+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T18:08:11.3986630+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T18:08:18.5230890+02:00  [ERR] ERROR in app/endre/endre.ts:51:36 - error TS1005: ')' expected.
+
+51         error => console.log(error);
+                                      ~
+app/endre/endre.ts:52:7 - error TS1128: Declaration or statement expected.
+
+52       );
+         ~
+app/liste/liste.ts:27:36 - error TS1005: ')' expected.
+
+27         error => console.log(error);
+                                      ~
+app/liste/liste.ts:28:7 - error TS1128: Declaration or statement expected.
+
+28       );
+         ~
+
+ (487109a9)
+2020-07-18T18:09:14.1610010+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T18:09:14.2155360+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T18:09:14.2325070+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T18:09:14.2325740+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T18:09:14.2326330+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T19:02:41.7758660+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T19:02:41.7839940+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T19:02:41.7844200+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T19:02:41.7845060+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T19:02:41.7845530+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T19:10:54.8505990+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T19:10:54.8575730+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T19:10:54.8579950+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T19:10:54.8580660+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T19:10:54.8581240+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T19:16:14.6226750+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T19:16:14.6307190+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T19:16:14.6315420+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T19:16:14.6316110+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T19:16:14.6316700+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-18T19:41:28.2140500+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-18T19:41:28.2653490+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-18T19:41:28.2657120+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-18T19:41:28.2658050+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-18T19:41:28.2658650+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)

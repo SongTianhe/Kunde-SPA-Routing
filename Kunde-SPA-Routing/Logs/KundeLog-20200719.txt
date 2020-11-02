@@ -1,0 +1,144 @@
+2020-07-19T09:30:26.5802690+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T09:30:26.5875220+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T09:30:26.5880290+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T09:30:26.5880820+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T09:30:26.5881410+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-19T09:43:05.5107960+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T09:43:05.5166520+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T09:43:05.5172120+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T09:43:05.5172860+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T09:43:05.5173330+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-19T09:55:53.8653070+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T09:55:53.8761790+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T09:55:53.8768530+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T09:55:53.8770340+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T09:55:53.8771140+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-19T09:56:05.8451970+02:00  [ERR] ERROR in app/endre/endre.ts:40:25 - error TS2554: Expected 0 arguments, but got 1.
+
+40       this.endreEnKunde(params.id);
+                           ~~~~~~~~~
+app/endre/endre.ts:75:16 - error TS2551: Property 'router' does not exist on type 'Endre'. Did you mean 'route'?
+
+75           this.router.navigate(['/liste']);
+                  ~~~~~~
+
+  app/endre/endre.ts:34:15
+    34               private route: ActivatedRoute, private routing: Router) {
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    'route' is declared here.
+
+ (adbb06c7)
+2020-07-19T09:56:54.2956300+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T09:56:54.3019580+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T09:56:54.3023120+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T09:56:54.3023570+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T09:56:54.3023970+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-19T09:57:03.6491650+02:00  [ERR] ERROR in app/endre/endre.ts:40:25 - error TS2554: Expected 0 arguments, but got 1.
+
+40       this.endreEnKunde(params.id);
+                           ~~~~~~~~~
+
+ (e105ebe2)
+2020-07-19T09:57:55.9158030+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T09:57:55.9249600+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T09:57:55.9254320+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T09:57:55.9254830+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T09:57:55.9255220+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-19T10:04:39.1164560+02:00 0HM1BN5P4TAT2:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (2): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-07-19T10:04:39.1191890+02:00 0HM1BN5P4TAT2:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-07-19T10:04:39.1311050+02:00 0HM1BN5P4TAT2:00000001 [ERR] Connection id ""0HM1BN5P4TAT2"", Request id ""0HM1BN5P4TAT2:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (2): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-07-19T10:07:46.0358470+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T10:07:46.0423550+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T10:07:46.0502780+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T10:07:46.0503300+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T10:07:46.0503730+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-19T10:07:57.9286240+02:00  [ERR] ERROR in app/endre/endre.ts:11:14 - error TS2420: Class 'Endre' incorrectly implements interface 'OnInit'.
+  Property 'ngOnInit' is missing in type 'Endre' but required in type 'OnInit'.
+
+11 export class Endre implements OnInit {
+                ~~~~~
+
+  ../node_modules/@angular/core/core.d.ts:4402:5
+    4402     ngOnInit(): void;
+             ~~~~~~~~~~~~~~~~~
+    'ngOnInit' is declared here.
+
+ (8ace72b9)
+2020-07-19T10:08:58.5069320+02:00  [ERR]     ERROR in src/app/endre/endre.ts(11,14): error TS2420: Class 'Endre' incorrectly implements interface 'OnInit'.
+      Property 'ngOnInit' is missing in type 'Endre' but required in type 'OnInit'.
+    
+ (1ec8ac3a)
+2020-07-19T10:09:05.8105190+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T10:09:05.8177440+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T10:09:05.8182620+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T10:09:05.8183430+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T10:09:05.8183950+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-19T10:09:16.6353240+02:00  [ERR] ERROR in app/endre/endre.ts:11:14 - error TS2420: Class 'Endre' incorrectly implements interface 'OnInit'.
+  Property 'ngOnInit' is missing in type 'Endre' but required in type 'OnInit'.
+
+11 export class Endre implements OnInit {
+                ~~~~~
+
+  ../node_modules/@angular/core/core.d.ts:4402:5
+    4402     ngOnInit(): void;
+             ~~~~~~~~~~~~~~~~~
+    'ngOnInit' is declared here.
+
+ (8ace72b9)
+2020-07-19T10:11:13.2557020+02:00 0HM1BNC0PFDH1:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (2): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-07-19T10:11:13.2582630+02:00 0HM1BNC0PFDH1:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-07-19T10:11:13.2784370+02:00 0HM1BNC0PFDH1:00000001 [ERR] Connection id ""0HM1BNC0PFDH1"", Request id ""0HM1BNC0PFDH1:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (2): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-07-19T10:11:29.5901950+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T10:11:29.6048380+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T10:11:29.6066690+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T10:11:29.6067650+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T10:11:29.6076850+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-19T14:55:23.4388570+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-19T14:55:23.4497970+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-19T14:55:23.4502920+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-19T14:55:23.4503650+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-19T14:55:23.4504140+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)

@@ -1,0 +1,13 @@
+﻿<div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Ønsker du å slette</h4>
+    </div>
+    <div class="modal-body">
+        {{navn}} ?
+    </div>
+    <div class="modal-footer">
+        <!-- den første knappen vil bli "default" dvs. kjøres når "enter" trykkes -->
+        <button type="button" class="btn btn-default" (click)="modal.close('Lukk')">Lukk</button>
+        <button type="button" class="btn btn-danger" (click)="modal.close('Slett')">Slett</button>
+    </div>
+</div>

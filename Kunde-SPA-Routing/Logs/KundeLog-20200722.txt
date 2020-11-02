@@ -1,0 +1,21 @@
+2020-07-22T14:58:45.3874100+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-22T14:58:45.3944030+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-22T14:58:45.3950120+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-22T14:58:45.3951410+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-22T14:58:45.3952690+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-22T18:29:12.7156310+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-22T18:29:12.7234630+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-22T18:29:12.7244060+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-22T18:29:12.7244680+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-22T18:29:12.7245150+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-22T18:38:13.7520880+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-22T18:38:13.7587030+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-22T18:38:13.7591290+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-22T18:38:13.7591870+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-22T18:38:13.7592420+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)
+2020-07-22T18:38:29.1235030+02:00  [ERR] ERROR in app/endre/endre.ts:6:23 - error TS2307: Cannot find module '/Kunde'.
+
+6 import { Kunde } from "/Kunde";
+                        ~~~~~~~~
+
+ (f6853182)

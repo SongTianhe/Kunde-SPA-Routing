@@ -1,0 +1,5 @@
+2020-07-21T14:22:08.0750590+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-21T14:22:08.0802190+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-21T14:22:08.0807030+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-21T14:22:08.0808000+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-21T14:22:08.0808550+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA-Routing/Kunde-SPA-Routing" (b5d60022)

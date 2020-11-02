@@ -1,0 +1,195 @@
+2020-06-26T09:34:58.0552440+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T09:34:58.0632770+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T09:34:58.0642700+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T09:34:58.0643870+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T09:34:58.0647620+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T09:45:42.4556800+02:00 0HM0PKDMOGAJK:00000009 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at KundeApp2.DAL.KundeRepository.HentEn(Int32 id) in /Users/tor/Projects/Kunde-SPA/Kunde-SPA/DAL/KundeRepository.cs:line 90
+   at KundeApp2.Controllers.KundeController.HentEn(Int32 id) in /Users/tor/Projects/Kunde-SPA/Kunde-SPA/Controllers/KundeController.cs:line 69
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-06-26T09:47:47.4690780+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T09:47:47.4824800+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T09:47:47.4869350+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T09:47:47.4917340+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T10:07:29.7975900+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T10:07:29.8060510+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T10:07:29.8066200+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T10:07:29.8066790+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T10:07:29.8067390+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T10:22:32.9940840+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T10:22:33.0088560+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T10:22:33.0130320+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T10:22:33.0177830+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T10:32:40.7019030+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T10:32:40.7109470+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T10:32:40.7113730+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T10:32:40.7115190+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T10:32:40.7138000+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T10:37:31.1889720+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T10:37:31.1952080+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T10:37:31.1957320+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T10:37:31.1957970+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T10:37:31.1958900+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T10:40:11.2488770+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T10:40:11.2643550+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T10:40:11.2647290+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T10:40:11.2647770+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T10:40:11.2648210+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T10:40:34.0369290+02:00 0HM0PLI4VH7CT:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-06-26T10:40:34.0407760+02:00 0HM0PLI4VH7CT:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-06-26T10:40:34.1654180+02:00 0HM0PLI4VH7CT:00000001 [ERR] Connection id ""0HM0PLI4VH7CT"", Request id ""0HM0PLI4VH7CT:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-06-26T10:44:19.9548150+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T10:44:19.9606110+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T10:44:19.9614130+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T10:44:19.9614840+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T10:44:19.9615320+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T19:19:49.0305070+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T19:19:49.0401580+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T19:19:49.0405930+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T19:19:49.0406490+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T19:19:49.0407110+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T19:20:29.8363950+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T19:20:29.8445580+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T19:20:29.8458520+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T19:20:29.8459090+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T19:20:29.8459710+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T19:36:02.5439610+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T19:36:02.5505930+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T19:36:02.5513510+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T19:36:02.5516330+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T19:36:02.5518830+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
+2020-06-26T20:16:06.0410580+02:00  [ERR] fs.js:114
+ (cb2e70e2)
+2020-06-26T20:16:06.0461240+02:00  [ERR]     throw err;
+    ^
+
+Error: ENOENT: no such file or directory, lstat '/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules'
+    at Object.realpathSync (fs.js:1456:7)
+    at compiler.hooks.contextModuleFactory.tap.cmf (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/@ngtools/webpack/src/angular_compiler_plugin.js:568:52)
+    at SyncHook.eval [as call] (eval at create (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:9:1)
+    at Compiler.createContextModuleFactory (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/webpack/lib/Compiler.js:637:35)
+    at Compiler.newCompilationParams (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/webpack/lib/Compiler.js:644:31)
+    at Compiler.compile (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/webpack/lib/Compiler.js:651:23)
+    at compiler.hooks.watchRun.callAsync.err (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/webpack/lib/Watching.js:77:18)
+ (08185614)
+2020-06-26T20:16:06.1410000+02:00  [ERR]     at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:33:1)
+    at Watching._go (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/webpack/lib/Watching.js:41:32)
+    at Watching._invalidate (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/webpack/lib/Watching.js:169:9)
+    at watcher.compiler.watchFileSystem.watch (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/webpack/lib/Watching.js:138:11)
+    at newCallback (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:128:13)
+    at Watchpack.watcher.once (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/webpack/lib/node/NodeWatchFileSystem.js:59:4)
+    at Object.onceWrapper (events.js:277:13)
+    at Watchpack.emit (events.js:189:13)
+    at Watchpack._onTimeout (/Users/tor/Projects/Kunde-SPA/Kunde-SPA/ClientApp/node_modules/watchpack/lib/watchpack.js:144:7)
+npm ERR! code ELIFECYCLE
+ (a143bb6f)
+2020-06-26T20:16:06.1794040+02:00  [ERR] npm ERR! errno 1
+npm ERR! kunde_spa@0.0.0 start: `ng serve "--port" "56188"`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the kunde_spa@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+ (db10714d)
+2020-06-26T20:16:06.1807910+02:00  [ERR] npm ERR! A complete log of this run can be found in:
+ (e9dc2fc2)
+2020-06-26T20:16:06.1808810+02:00  [ERR] npm ERR!     /Users/tor/.npm/_logs/2020-06-26T18_16_06_145Z-debug.log
+ (8afdc1d5)
+2020-06-26T20:16:27.7667730+02:00 0HM0PUTIQFS8B:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.Http.HttpRequestException: Failed to proxy the request to http://localhost:56188/, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:56188/.
+
+The underlying exception message was 'Connection refused'.Check the InnerException for more details.
+ ---> System.Net.Http.HttpRequestException: Connection refused
+ ---> System.Net.Sockets.SocketException (61): Connection refused
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-06-26T20:16:27.8970110+02:00 0HM0PUTIQFS8A:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (The remote party closed the WebSocket connection without completing the close handshake.)
+ ---> System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+   at System.Net.WebSockets.ManagedWebSocket.ThrowIfEOFUnexpected(Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-06-26T20:16:27.8971250+02:00 0HM0PUTIQFS8A:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-06-26T20:16:27.9195030+02:00 0HM0PUTIQFS8A:00000001 [ERR] Connection id ""0HM0PUTIQFS8A"", Request id ""0HM0PUTIQFS8A:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: One or more errors occurred. (The remote party closed the WebSocket connection without completing the close handshake.)
+ ---> System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+   at System.Net.WebSockets.ManagedWebSocket.ThrowIfEOFUnexpected(Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-06-26T20:18:46.2318970+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-06-26T20:18:46.2427380+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-06-26T20:18:46.2430780+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-06-26T20:18:46.2431220+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-06-26T20:18:46.2431760+02:00  [INF] Content root path: "/Users/tor/Projects/Kunde-SPA/Kunde-SPA" (b5d60022)
